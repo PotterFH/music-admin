@@ -117,3 +117,160 @@ in APPPATH\Views\music\list.php on line 16.
  7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 19:13:13 --> Invalid argument supplied for foreach()
+in APPPATH\Views\music\list.php on line 16.
+ 1 APPPATH\Views\music\list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\music\\list.php', 16, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\music\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('music/list', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('music/list')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 19:50:59 --> Class 'App\Controllers\Libro' not found
+in APPPATH\Controllers\Albums.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Albums->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Albums))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 20:25:23 --> syntax error, unexpected '=', expecting variable (T_VARIABLE)
+in APPPATH\Controllers\Albums.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Albums.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Albums')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Albums')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Albums')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Albums', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:06:16 --> Invalid file: music/list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('music/list.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('music/list', [], true)
+ 3 APPPATH\Controllers\Albums.php(15): view('music/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Albums->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Albums))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:28:26 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:29:57 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:30:01 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:39:12 --> Invalid file: music/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('music/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('music/edit', [], true)
+ 3 APPPATH\Controllers\Albums.php(66): view('music/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Albums->editar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Albums))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:39:53 --> Invalid file: music/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('music/edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('music/edit', [], true)
+ 3 APPPATH\Controllers\Albums.php(66): view('music/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Albums->editar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Albums))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:40:26 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:40:33 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:49:09 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:49:26 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:52:48 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 21:56:28 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 22:01:27 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-10 22:01:44 --> Invalid file: genre/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('genre/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genre/index', [], true)
+ 3 APPPATH\Controllers\Genre.php(17): view('genre/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Genre->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-10 23:03:21 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-10 23:03:29 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-10 23:06:05 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-10 23:06:09 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
