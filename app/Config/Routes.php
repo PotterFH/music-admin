@@ -60,10 +60,10 @@ $routes->get('borrar/(:num)', 'Albums::borrar/$1');
 $routes->get('editar/(:num)', 'Albums::editar/$1');
 $routes->post('actualizar', 'Albums::actualizar');
 
-$routes->get('listg', 'Genre::index');
-$routes->post('guardarg', 'Genre::guardar');
-$routes->get('crearg', 'Genre::crear');
-$routes->get('borrarg/(:num)', 'Genre::borrar/$1');
-$routes->get('editarg/(:num)', 'Genre::editar/$1');
-$routes->post('actualizarg', 'Genre::actualizar');
+$routes->get('listag', 'GenerosController::index');
+$routes->get('crearg', 'GenerosController::crearg');
+$routes->post('guardarg', 'GenerosController::guardarg');
+$routes->get('borrarg/(:num)', 'GenerosController::borrarg/$1');
+$routes->get('editarg/(:num)', 'GenerosController::editarg/$1');
+$routes->post('actualizarg', 'GenerosController::actualizarg');
 

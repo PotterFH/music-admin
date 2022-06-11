@@ -1,0 +1,72 @@
+CRITICAL - 2022-06-11 13:11:25 --> Invalid argument supplied for foreach()
+in APPPATH\Views\genres\listag.php on line 25.
+ 1 APPPATH\Views\genres\listag.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\genres\\listag.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genres\\listag.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genres/listag', [], true)
+ 5 APPPATH\Controllers\GenerosController.php(14): view('genres/listag', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\GenerosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerosController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-11 13:11:49 --> Invalid argument supplied for foreach()
+in APPPATH\Views\genres\listag.php on line 25.
+ 1 APPPATH\Views\genres\listag.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\genres\\listag.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genres\\listag.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('genres/listag', [], true)
+ 5 APPPATH\Controllers\GenerosController.php(14): view('genres/listag', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\GenerosController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerosController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-11 13:26:05 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:26:26 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:26:31 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:26:48 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:29:48 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:29:58 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:31:07 --> Column 'author' cannot be null
+ERROR - 2022-06-11 13:44:16 --> Duplicate entry 'Pop' for key 'genres.name'
+ERROR - 2022-06-11 13:45:52 --> Duplicate entry 'Rock' for key 'genres.name'
+ERROR - 2022-06-11 13:54:59 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 13:55:10 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 13:55:30 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 13:56:10 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 13:56:19 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 14:29:49 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 14:29:54 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:31:31 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:32:00 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:32:59 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 14:41:33 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 14:46:00 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:46:04 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:47:36 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 14:50:28 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:05:25 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:08:03 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:09:12 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:12:34 --> Duplicate entry 'Rock' for key 'genres.name'
+ERROR - 2022-06-11 15:12:49 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:14:46 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:27:26 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:29:40 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:29:48 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:30:09 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:31:45 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:31:55 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:32:50 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:38:34 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:40:56 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:41:08 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:41:12 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:43:30 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:44:50 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:50:03 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:50:09 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:53:30 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:56:57 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:58:02 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-06-11 15:58:22 --> Duplicate entry '' for key 'genres.name'
+ERROR - 2022-06-11 15:58:31 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
