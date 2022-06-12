@@ -2,7 +2,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\album;
+use App\Models\Album;
 class Albums extends Controller{
     public function index(){
 
